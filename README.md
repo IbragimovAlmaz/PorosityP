@@ -30,3 +30,5 @@ pip install numpy pandas scikit-learn scipy pingouin scikit-posthocs statannotat
 
 1. Download the porogen_content and `.csv` dataset files from the Zenodo archive linked above and place them in the same directory as the scripts.
 2. Run any script or notebook independently to reproduce the corresponding figures and statistical analyses.
+
+`Note:` Please note that some of the images in the `porogen_content` dataset were made after the ModuleSci software (PICO SMART PE) update.
