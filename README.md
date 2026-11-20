@@ -7,7 +7,7 @@ This repository contains the data processing and visualization scripts used to o
 ## Repository Structure
 
 * **`data` (`porogen_content` and CSV files)** — Raw experimental datasets archived in an external Zenodo repository: [DOI: 10.5281/zenodo.22864555].
-* **`scripts`** — Independent scripts and notebooks for data processing and figure generation:
+* **`scripts`** — Independent scripts and notebooks for data processing and figure plotting: [DOI: 10.5281/zenodo.22864555](https://github.com/IbragimovAlmaz/PorosityP)
   * **Surface porosity analysis:** `pores_preprocessing.py`, `pore_areas.py`, `cumulative_porosity.py` (requires `combined_porogen_data.csv`, processed from raw `porogen_content` images via manual FIJI/ImageJ thresholding).
   * **Volumetric porosity analysis:** `volumetric-porosity.py` (contains embedded calculated data from gravimetric measurements).
   * **Basic optical density processing:** `curves_od.py`, `od800.py` (requires `spectroturbidimetry.csv`).
@@ -30,3 +30,4 @@ pip install numpy pandas scikit-learn scipy pingouin scikit-posthocs statannotat
 
 1. Download the porogen_content and `.csv` dataset files from the Zenodo archive linked above and place them in the same directory as the scripts.
 2. Run any script or notebook independently to reproduce the corresponding figures and statistical analyses.
+
