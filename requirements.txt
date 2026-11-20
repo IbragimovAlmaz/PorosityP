@@ -1,0 +1,13 @@
+# General
+numpy
+pandas
+scikit-learn
+
+# Statistics and plotting
+scipy
+pingouin
+scikit-posthocs
+statannotations
+matplotlib
+seaborn
+plotly
